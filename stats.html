@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Improved CSP: allow required resources, block inline scripts/styles -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://cdnjs.cloudflare.com 'unsafe-inline'; font-src 'self' https://cdnjs.cloudflare.com; object-src 'none'; base-uri 'none';">
+    <title>Layer 7 Attack Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/3paNdF+Z73e5e2x5qD5e5qD5e5qD5e5" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-abc123xyz456" crossorigin="anonymous"></script>
+    <style>
+        /* Default to dark theme */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body.light-theme {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .dashboard {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        body.light-theme h1 {
+            color: #333;
+        }
+
+        h1 i {
+            margin-right: 10px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 30%;
+            transition: background-color 0.3s, color 0.3s;
+            margin: 0 10px; /* Add margin for spacing */
+        }
+
+        body.light-theme .stat-card {
+            background: #fff;
+            color: #333;
+        }
+
+        .stat-card i {
+            font-size: 2em;
+            color: #007bff;
+        }
+
+        .stat-card h2 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #ffffff;
+        }
+
+        body.light-theme .stat-card h2 {
+            color: #555;
+        }
+
+        .stat-card p {
+            font-size: 1.5em;
+            color: #ffffff;
+        }
+
+        body.light-theme .stat-card p {
+            color: #333;
+        }
+
+        .charts {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        canvas {
+            width: 100%;
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        body.light-theme canvas {
+            background: #fff;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            background: #0056b3;
+        }
+
+        .domain-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .domain-info i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+
+        .dashboard i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body class="dark-theme">
+    <div class="dashboard">
+        <h1><i class="fas fa-shield-alt"></i> Layer 7 Attacks</h1>
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <i class="fas fa-sun"></i> Light Mode
+        </button>
+        <div class="domain-info">
+            <p><i class="fas fa-globe"></i> Domain: nebulabin.org</p>
+            <p><i class="fas fa-plug"></i> Port: 443</p>
+        </div>
+        <div class="stats">
+            <div class="stat-card">
+                <i class="fas fa-bolt"></i>
+                <h2>Requests/sec</h2>
+                <p id="requests">0</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-exclamation-triangle"></i>
+                <h2>Blocked Requests</h2>
+                <p id="blocked">0</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-clock"></i>
+                <h2>Response Time</h2>
+                <p id="response-time">0ms</p>
+            </div>
+        </div>
+        <div class="charts">
+            <canvas id="combinedChart"></canvas>
+        </div>
+    </div>
+    <script>
+        // Initialize Chart.js
+        const combinedCtx = document.getElementById('combinedChart').getContext('2d');
+
+        // Gradient fill for the Requests/sec dataset
+        const gradient = combinedCtx.createLinearGradient(0, 0, 0, 400);
+        gradient.addColorStop(0, 'rgba(255, 99, 132, 0.6)');
+        gradient.addColorStop(1, 'rgba(255, 99, 132, 0)');
+
+        const combinedChart = new Chart(combinedCtx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [
+                    {
+                        label: 'Requests/sec',
+                        data: [],
+                        borderColor: '#ff6384',
+                        backgroundColor: gradient,
+                        fill: true,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Blocked Requests',
+                        data: [],
+                        borderColor: '#36a2eb',
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        fill: true,
+                        tension: 0.4,
+                        hidden: true // Initially hidden
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            title: (context) => `Time: ${context[0].label}`,
+                            label: (context) => `${context.dataset.label}: ${context.raw}`
+                        }
+                    },
+                    legend: {
+                        onClick: (e, legendItem, legend) => {
+                            const index = legendItem.datasetIndex;
+                            const meta = legend.chart.getDatasetMeta(index);
+                            meta.hidden = !meta.hidden; // Toggle visibility
+                            legend.chart.update();
+                        }
+                    }
+                }
+            }
+        });
+
+        // Prevent XSS in dynamic updates (defense-in-depth, though not needed for numbers)
+        function safeTextContent(element, value) {
+            if (typeof value === "string" || typeof value === "number") {
+                element.textContent = value;
+            } else {
+                element.textContent = '';
+            }
+        }
+
+        // Simulate live data updates
+        setInterval(() => {
+            const requests = Math.floor(Math.random() * 1000);
+            const blocked = Math.floor(Math.random() * 100);
+            const responseTime = Math.floor(Math.random() * 500);
+
+            // Update stats safely
+            safeTextContent(document.getElementById('requests'), requests);
+            safeTextContent(document.getElementById('blocked'), blocked);
+            safeTextContent(document.getElementById('response-time'), `${responseTime}ms`);
+
+            // Update chart
+            const now = new Date();
+            const time = `${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
+
+            combinedChart.data.labels.push(time);
+            combinedChart.data.datasets[0].data.push(requests);
+            combinedChart.data.datasets[1].data.push(blocked);
+
+            // Remove old data if too many points
+            if (combinedChart.data.labels.length > 15) {
+                combinedChart.data.labels.shift();
+                combinedChart.data.datasets[0].data.shift();
+                combinedChart.data.datasets[1].data.shift();
+            }
+
+            combinedChart.update();
+        }, 2000); // Update every 2 seconds
+
+        // Dark theme toggle
+        function toggleTheme() {
+            document.body.classList.toggle('light-theme');
+            const themeToggle = document.querySelector('.theme-toggle');
+            if (document.body.classList.contains('light-theme')) {
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i> Dark Mode';
+            } else {
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i> Light Mode';
+            }
+        }
+    </script>
+</body>
+</html>

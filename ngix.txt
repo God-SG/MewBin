@@ -1,0 +1,49 @@
+# Redirect all extensions to html
+if ($is_args = ''){
+	rewrite ^([^.]*)\.shtml$ $1.html permanent;
+	rewrite ^([^.]*)\.phtml$ $1.html permanent;
+	rewrite ^([^.]*)\.jhtml$ $1.html permanent;
+	rewrite ^([^.]*)\.htm$ $1.html permanent;
+	rewrite ^([^.]*)\.php$ $1.html permanent;
+	rewrite ^([^.]*)\.aspx$ $1.html permanent;
+	rewrite ^([^.]*)\.asp$ $1.html permanent;
+	rewrite ^([^.]*)\.jsp$ $1.html permanent;
+	rewrite ^([^.]*)\.apk$ $1.html permanent;
+}
+# End: Redirect all extensions to html
+
+# Create pretty URLs
+rewrite ^/([^/]+)$ /$1.html last;
+rewrite ^/([^/]+)/([^/]+)$ /$1/$2.html last;
+rewrite ^/([^/]+)/([^/]+)/([^/]+)$ /$1/$2/$3.html last;
+rewrite ^/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ /$1/$2/$3/$4.html last;
+rewrite ^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ /$1/$2/$3/$4/$5.html last;
+rewrite ^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ /$1/$2/$3/$4/$5/$6.html last;
+rewrite ^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ /$1/$2/$3/$4/$5/$6/$7.html last;
+rewrite ^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ /$1/$2/$3/$4/$5/$6/$7/$8.html last;
+rewrite ^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ /$1/$2/$3/$4/$5/$6/$7/$8/$9.html last;
+rewrite ^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ /$1/$2/$3/$4/$5/$6/$7/$8/$9/$10.html last;
+# End: Create pretty URLs
+
+# Specific redirections
+if ($args ~* ^page=2$){ rewrite ^/$ /page-2? permanent; }
+if ($args ~* ^page=3$){ rewrite ^/$ /page-3? permanent; }
+if ($args ~* ^page=1$){ rewrite ^/$ /page-1? permanent; }
+if ($args ~* ^page=421$){ rewrite ^/$ /page-421? permanent; }
+if ($args ~* ^page=4$){ rewrite ^/$ /page-4? permanent; }
+if ($args ~* ^page=404$){ rewrite ^/$ /page-404? permanent; }
+if ($args ~* ^t=oHILW5$){ rewrite ^/paste$ /paste_t-oHILW5? permanent; }
+if ($args ~* ^t=J5cFcV$){ rewrite ^/paste$ /paste_t-J5cFcV? permanent; }
+if ($args ~* ^t=KZsD8C$){ rewrite ^/paste$ /paste_t-KZsD8C? permanent; }
+if ($args ~* ^t=dcP44z$){ rewrite ^/paste$ /paste_t-dcP44z? permanent; }
+if ($args ~* ^t=c2Pffk$){ rewrite ^/paste$ /paste_t-c2Pffk? permanent; }
+if ($args ~* ^t=omXmat$){ rewrite ^/paste$ /paste_t-omXmat? permanent; }
+if ($args ~* ^t=hZ6cT0$){ rewrite ^/paste$ /paste_t-hZ6cT0? permanent; }
+if ($args ~* ^t=SCOSJh$){ rewrite ^/paste$ /paste_t-SCOSJh? permanent; }
+if ($args ~* ^t=Nh78mw$){ rewrite ^/paste$ /paste_t-Nh78mw? permanent; }
+if ($args ~* ^t=YNGbnW$){ rewrite ^/paste$ /paste_t-YNGbnW? permanent; }
+if ($args ~* ^t=byINnf$){ rewrite ^/paste$ /paste_t-byINnf? permanent; }
+if ($args ~* ^t=Szg5U8$){ rewrite ^/paste$ /paste_t-Szg5U8? permanent; }
+if ($args ~* ^t=lq0RVT$){ rewrite ^/paste$ /paste_t-lq0RVT? permanent; }
+if ($args ~* ^t=h1SJKu$){ rewrite ^/paste$ /paste_t-h1SJKu? permanent; }
+if ($args ~* ^page=400$){ rewrite ^/$ /page-400? permanent; }

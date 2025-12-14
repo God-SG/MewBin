@@ -1,0 +1,7 @@
+[2025-09-30 14:07:55] [HIGH] 127.0.0.1 - Malicious input detected
+[2025-10-01 00:18:42] [HIGH] 127.0.0.1 - Malicious input detected
+[2025-10-01 06:00:15] [HIGH] ::1 - Malicious input detected
+[2025-10-01 06:00:51] [HIGH] ::1 - Malicious input detected
+[2025-10-01 06:00:56] [HIGH] ::1 - Malicious input detected
+[2025-10-01 06:05:12] [HIGH] ::1 - Malicious patterns detected in request
+[2025-10-01 22:36:00] [HIGH] ::1 - Malicious input detected
