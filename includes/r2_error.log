@@ -1,0 +1,272 @@
+[11-Oct-2025 04:47:37 Europe/Berlin] Composer autoloader not found at: D:\xampp\htdocs\mewmew\includes/../vendor/autoload.php
+[11-Oct-2025 04:47:37 Europe/Berlin] R2 Helper initialization error: Composer autoloader not found. Please run `composer install`.
+[11-Oct-2025 04:47:37 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Composer autoloader not found. Please run `composer install`. in D:\xampp\htdocs\mewmew\includes\R2Uploader.php:12
+Stack trace:
+#0 D:\xampp\htdocs\mewmew\includes\r2-helper.php(10): require_once()
+#1 D:\xampp\htdocs\mewmew\profile.php(6): require_once('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\mewmew\includes\R2Uploader.php on line 12
+[11-Oct-2025 05:22:19 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:22:19 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:22:19 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:22:19 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:22:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:22:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 1054
+[11-Oct-2025 05:24:08 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:24:08 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:24:08 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:24:08 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:24:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:24:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 1054
+[11-Oct-2025 05:26:26 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:26:26 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:26:26 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:26:26 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:26:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:26:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 1054
+[11-Oct-2025 05:27:37 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:27:37 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:27:37 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:27:37 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:27:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:27:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 1054
+[11-Oct-2025 05:31:38 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:31:38 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:31:38 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:31:38 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:31:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:31:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 1054
+[11-Oct-2025 05:34:55 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:34:55 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:34:55 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:34:55 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:34:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:34:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 1054
+[11-Oct-2025 05:35:28 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:35:28 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:35:28 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:35:28 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:35:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:35:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 1054
+[11-Oct-2025 05:38:44 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:38:44 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:38:44 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:38:44 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:38:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:39:28 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:39:28 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:39:28 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:39:28 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:39:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:39:45 Europe/Berlin] getFileUrl called with filePath: profile_music/default_music.mp3
+[11-Oct-2025 05:39:45 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:39:45 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:39:45 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/default_music.mp3
+[11-Oct-2025 05:39:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\mewmew\profile.php on line 725
+[11-Oct-2025 05:39:55 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:39:55 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:39:55 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Profile picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:39:55 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:39:55 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Banner picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] getFileUrl called with filePath: profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 05:39:55 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:39:55 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:39:55 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 05:39:55 Europe/Berlin] getFileUrl called with filePath: profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 05:39:55 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:39:55 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:39:55 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 05:39:55 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Detected profile_pictures in path, using profile_pictures/ directory
+[11-Oct-2025 05:39:55 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:39:55 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:39:55 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Generated URL for uploads/profile_pictures/6826aa38c2e080.80180843.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Detected banner_pictures in path, using banner_pictures/ directory
+[11-Oct-2025 05:39:55 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:39:55 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:39:55 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:39:55 Europe/Berlin] Generated URL for uploads/banner_pictures/6826aaa472e8f8.25201921.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:13 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:13 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Profile picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:13 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:13 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Banner picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] getFileUrl called with filePath: profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 05:45:13 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:13 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:13 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 05:45:13 Europe/Berlin] getFileUrl called with filePath: profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 05:45:13 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:13 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:13 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 05:45:13 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Detected profile_pictures in path, using profile_pictures/ directory
+[11-Oct-2025 05:45:13 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:13 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:13 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Generated URL for uploads/profile_pictures/6826aa38c2e080.80180843.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Detected banner_pictures in path, using banner_pictures/ directory
+[11-Oct-2025 05:45:13 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:13 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:13 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:13 Europe/Berlin] Generated URL for uploads/banner_pictures/6826aaa472e8f8.25201921.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:52 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:52 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Profile picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:52 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:52 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Banner picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] getFileUrl called with filePath: profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 05:45:52 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:52 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:52 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 05:45:52 Europe/Berlin] getFileUrl called with filePath: profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 05:45:52 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:52 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:52 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 05:45:52 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Detected profile_pictures in path, using profile_pictures/ directory
+[11-Oct-2025 05:45:52 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:52 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:52 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Generated URL for uploads/profile_pictures/6826aa38c2e080.80180843.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Detected banner_pictures in path, using banner_pictures/ directory
+[11-Oct-2025 05:45:52 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:45:52 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:45:52 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:45:52 Europe/Berlin] Generated URL for uploads/banner_pictures/6826aaa472e8f8.25201921.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826f258679220.98698425.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:47:25 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:47:25 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826f258679220.98698425.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Profile picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826f258679220.98698425.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826f24e146090.66985370.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:47:25 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:47:25 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826f24e146090.66985370.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Banner picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826f24e146090.66985370.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/profile_pictures/6826f258679220.98698425.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Detected profile_pictures in path, using profile_pictures/ directory
+[11-Oct-2025 05:47:25 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826f258679220.98698425.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:47:25 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:47:25 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826f258679220.98698425.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Generated URL for uploads/profile_pictures/6826f258679220.98698425.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826f258679220.98698425.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/banner_pictures/6826f24e146090.66985370.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Detected banner_pictures in path, using banner_pictures/ directory
+[11-Oct-2025 05:47:25 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826f24e146090.66985370.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 05:47:25 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 05:47:25 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826f24e146090.66985370.jpg
+[11-Oct-2025 05:47:25 Europe/Berlin] Generated URL for uploads/banner_pictures/6826f24e146090.66985370.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826f24e146090.66985370.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:28 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:28 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Profile picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:28 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:28 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Banner picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] getFileUrl called with filePath: profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 16:20:28 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:28 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:28 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 16:20:28 Europe/Berlin] getFileUrl called with filePath: profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 16:20:28 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:28 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:28 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 16:20:28 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Detected profile_pictures in path, using profile_pictures/ directory
+[11-Oct-2025 16:20:28 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:28 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:28 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Generated URL for uploads/profile_pictures/6826aa38c2e080.80180843.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Detected banner_pictures in path, using banner_pictures/ directory
+[11-Oct-2025 16:20:28 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:28 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:28 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:28 Europe/Berlin] Generated URL for uploads/banner_pictures/6826aaa472e8f8.25201921.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:54 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:54 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Profile picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:54 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:54 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Banner picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] getFileUrl called with filePath: profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 16:20:54 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:54 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:54 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 16:20:54 Europe/Berlin] getFileUrl called with filePath: profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 16:20:54 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:54 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:54 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 16:20:54 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Detected profile_pictures in path, using profile_pictures/ directory
+[11-Oct-2025 16:20:54 Europe/Berlin] getFileUrl called with filePath: profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:54 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:54 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Generated URL for uploads/profile_pictures/6826aa38c2e080.80180843.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Detected banner_pictures in path, using banner_pictures/ directory
+[11-Oct-2025 16:20:54 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:20:54 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:20:54 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:20:54 Europe/Berlin] Generated URL for uploads/banner_pictures/6826aaa472e8f8.25201921.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] Returning existing R2 profile picture URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] Profile picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:24:57 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:24:57 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] Banner picture URL generated: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] getFileUrl called with filePath: profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 16:24:57 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:24:57 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:24:57 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_backgrounds/bg_683b7a1c96b539.97833330.gif
+[11-Oct-2025 16:24:57 Europe/Berlin] getFileUrl called with filePath: profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 16:24:57 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:24:57 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:24:57 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_music/683b77629b17f4.96903991.mp3
+[11-Oct-2025 16:24:57 Europe/Berlin] Returning existing R2 URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/profile_pictures/6826aa38c2e080.80180843.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] r2_url called from unknown in unknown on line unknown with path: uploads/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] Detected banner_pictures in path, using banner_pictures/ directory
+[11-Oct-2025 16:24:57 Europe/Berlin] getFileUrl called with filePath: banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] Base URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev
+[11-Oct-2025 16:24:57 Europe/Berlin] Bucket: user-media
+[11-Oct-2025 16:24:57 Europe/Berlin] Generated URL: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
+[11-Oct-2025 16:24:57 Europe/Berlin] Generated URL for uploads/banner_pictures/6826aaa472e8f8.25201921.jpg: https://pub-e2a0d5fdb6b643c1bd302919fc06bd3a.r2.dev/banner_pictures/6826aaa472e8f8.25201921.jpg
